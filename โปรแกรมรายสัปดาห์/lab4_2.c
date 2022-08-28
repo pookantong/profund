@@ -1,24 +1,17 @@
 #include <stdio.h>
+
 int main()
 {
-    long sum=0;
-    int count=0;
-    for (int i = 1; i < 1000000; i++)
+    int count,count1;
+    scanf("%d",&count);
+    count1=count*count;
+    for (int i = 1; i <= count1; i++)
     {
-        sum+=i;
-        for (int j = 1; j <= sum; j++)
+        printf("*");
+        if (i%count==0)
         {
-            if (sum%j==0)
-            {
-                count++;
-            }
-            if (count==500)
-            {
-                printf("%ld",sum);
-            }
+            printf("\n");
         }
-        count=0;
-        
     }
     
     return 0;
