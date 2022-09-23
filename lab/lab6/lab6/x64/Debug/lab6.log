@@ -1,10 +1,7 @@
 ﻿  lab6.cpp
-C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(23,17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(23,20): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(32,17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(32,20): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(41,17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(41,20): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(50,17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
-C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(50,20): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(8,17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(8,20): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(101,30): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(101,32): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\lab6\lab6\lab6.cpp(112,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   lab6.vcxproj -> C:\Users\Acer\Desktop\code working\profund\lab\lab6\x64\Debug\lab6.exe

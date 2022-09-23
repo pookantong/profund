@@ -1,0 +1,7 @@
+﻿  test.cpp
+C:\Users\Acer\Desktop\code working\profund\lab\test\test\test.cpp(9,17): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\test\test\test.cpp(9,20): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\test\test\test.cpp(102,30): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\test\test\test.cpp(102,32): warning C4838: conversion from 'int' to 'SHORT' requires a narrowing conversion
+C:\Users\Acer\Desktop\code working\profund\lab\test\test\test.cpp(113,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  test.vcxproj -> C:\Users\Acer\Desktop\code working\profund\lab\test\x64\Debug\test.exe
