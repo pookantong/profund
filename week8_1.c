@@ -12,7 +12,7 @@ int main()
     {
         for (int j = 0; j < amount; j++)
         {
-            scanf("%d",num[i][j]);
+            scanf("%d",&num[i][j]);
         }
     }
 
