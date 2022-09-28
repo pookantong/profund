@@ -14,7 +14,6 @@ int main()
         {
             scanf("%d",num[i][j]);
         }
-        
     }
 
     for (int i = 0; i < amount; i++)

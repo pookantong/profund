@@ -77,7 +77,6 @@ int main()
             sum += num[i];
         }
     }
-    printf("%d %d",sum,result);
     if (sum != result)
     {
         printf("NO");
