@@ -4,6 +4,24 @@
 #include<time.h>
 #include <thread>
 
+#include <windows.h>
+#define screen_x 80
+#define screen_y 25
+HANDLE wHnd;
+CHAR_INFO consoleBuffer[screen_x * screen_y];
+COORD bufferSize = { screen_x,screen_y };
+COORD characterPos = { 0,0 };
+SMALL_RECT windowSize = { 0,0,screen_x - 1,screen_y - 1 };
+
+int setConsole(int x, int y)
+{
+    wHnd = GetStdHandle(STD_OUTPUT_HANDLE);
+    SetConsoleWindowInfo(wHnd, TRUE, &windowSize);
+    SetConsoleScreenBufferSize(wHnd, bufferSize);
+    return 0;
+}
+
+
 void gotoxy(int x, int y)
 {
     COORD c = { x, y };
@@ -110,6 +128,7 @@ char cursor(int x, int y)
 
 int main()
 {
+    setConsole(screen_x, screen_y);
     srand(time(0));
     for (int i = 0; i < 20; i++)
     {
@@ -118,8 +137,8 @@ int main()
     char ch = ' ';
     int j = 0;
     int x, y;
-    x = 23;
-    y = 25;
+    x = 37;
+    y = 20;
     int bull_x[5];
     int bull_y[5];
     int bullet_state[5];
@@ -129,6 +148,7 @@ int main()
     setcursor(0);
     do
     {
+        draw_ship(x, y);
         draw_point();
         printf("Points = %d", point);
         if (_kbhit())
@@ -148,7 +168,7 @@ int main()
             }
             if (ch == ' ' && i < 5)
             {
-                bull_y[i] = 24;
+                bull_y[i] = 19;
                 bull_x[i] = x + 3;
                 bullet_state[i] = 1;
                 i++;

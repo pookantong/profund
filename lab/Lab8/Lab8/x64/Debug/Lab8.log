@@ -1,0 +1,4 @@
+﻿  Lab8.cpp
+C:\Users\Acer\Desktop\code working\profund\lab\Lab8\Lab8\Lab8.cpp(136,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Acer\Desktop\code working\profund\lab\Lab8\Lab8\Lab8.cpp(149,92): warning C4805: '==': unsafe mix of type 'BOOL' and type 'bool' in operation
+  Lab8.vcxproj -> C:\Users\Acer\Desktop\code working\profund\lab\Lab8\x64\Debug\Lab8.exe

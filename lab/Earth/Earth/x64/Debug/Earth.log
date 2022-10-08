@@ -1,0 +1,5 @@
+﻿  Earth.cpp
+C:\Users\Acer\Desktop\code working\profund\lab\Earth\Earth\Earth.cpp(162,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Acer\Desktop\code working\profund\lab\Earth\Earth\Earth.cpp(235,104): warning C4805: '==': unsafe mix of type 'BOOL' and type 'bool' in operation
+C:\Users\Acer\Desktop\code working\profund\lab\Earth\Earth\Earth.cpp(152,12): warning C4101: 'death': unreferenced local variable
+  Earth.vcxproj -> C:\Users\Acer\Desktop\code working\profund\lab\Earth\x64\Debug\Earth.exe
