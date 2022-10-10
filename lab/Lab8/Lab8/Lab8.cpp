@@ -182,6 +182,8 @@ int main()
 		fill_buffer_to_console();
 		if (life == 0)
 		{
+			clear_buffer();
+			fill_buffer_to_console();
 			play = false;
 		}
 		Sleep(100);
