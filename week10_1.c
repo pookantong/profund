@@ -80,7 +80,6 @@ int result(int x[], int y[],int num){
             }  
         }  
     }  
-    printf("%d %d",xsize,ysize);
     for (int i = 0; i < xsize; i++)
     {
         number-=8;
